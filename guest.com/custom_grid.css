@@ -1,0 +1,16 @@
+.head_container
+{
+	display:grid-inline;
+	grid-template-columns: 2fr 2fr 2fr;
+	
+}
+.container_msg
+{
+	display:grid-block;
+	grid-template-columns: 2fr 3fr 2fr;
+	
+}
+#postmess
+{
+	display:none;
+}

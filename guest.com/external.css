@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Titillium+Web');
+body
+	{
+		background-color: b3b3b3;
+	}
+	a
+	{
+		text-decoration: none;
+		border: 1px solid 2e2e2e;
+
+	}
+	.msg_container_head
+	{
+		diplay:grid-inline; 
+		grid-template-columns: 3fr 3fr;
+		grid-template-rows : 2fr;
+	}
+	.msg_ui_container
+	{
+		display:grid;
+		grid-template-columns: 7fr;
+		grid-template-rows: 100px 30px;
+		border: 0.1px solid black;
+		font: blue;
+		font-family: 'Nanum Gothic', sans-serif;
+	}
+	.inputtext
+	{
+		font-size: 11px;
+	}
+.head_container
+{
+	font-family: 'Nanum Gothic', sans-serif;
+	background-color:grey;
+
+}
+*
+{
+	font-family: 'Nanum Gothic', sans-serif;
+}
